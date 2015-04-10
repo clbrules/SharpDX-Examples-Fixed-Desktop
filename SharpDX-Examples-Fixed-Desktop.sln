@@ -15,6 +15,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderToWicApp", "Direct2D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRenderingApp", "Direct2D1\TextRenderingApp\TextRenderingApp.csproj", "{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B6B0664-915E-470F-AB4A-D185BCAEF32F}"
+	ProjectSection(SolutionItems) = preProject
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.D3DCompiler.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.D3DCompiler.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct2D1.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct2D1.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct3D11.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct3D11.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.DXGI.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.DXGI.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Compiler.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Compiler.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Game.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Game.dll
+		assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Graphics.dll = assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Graphics.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
