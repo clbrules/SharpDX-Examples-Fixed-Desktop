@@ -41,3 +41,11 @@ C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Di
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.dll
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.Game.dll
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.DXGI.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\OfflineImageProcessingApp\bin\Debug\SharpDX.Toolkit.Graphics.xml
