@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDX.Samples", "Common\SharpDX.Samples.csproj", "{93716298-9FA4-4002-AE0B-4C9F4705CCEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDX.Samples", "Direct2D1\Common\SharpDX.Samples.csproj", "{93716298-9FA4-4002-AE0B-4C9F4705CCEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapApp", "BitmapApp\BitmapApp.csproj", "{AB183A0E-36DF-4C01-B46F-413F4070C43D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapApp", "Direct2D1\BitmapApp\BitmapApp.csproj", "{AB183A0E-36DF-4C01-B46F-413F4070C43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniRect", "MiniRect\MiniRect.csproj", "{482891B9-CC25-41F7-AA5C-CCBC73A1C638}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniRect", "Direct2D1\MiniRect\MiniRect.csproj", "{482891B9-CC25-41F7-AA5C-CCBC73A1C638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfflineImageProcessingApp", "OfflineImageProcessingApp\OfflineImageProcessingApp.csproj", "{340E92BA-7C7E-46AD-8511-67998D3DBE62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfflineImageProcessingApp", "Direct2D1\OfflineImageProcessingApp\OfflineImageProcessingApp.csproj", "{340E92BA-7C7E-46AD-8511-67998D3DBE62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderToWicApp", "RenderToWicApp\RenderToWicApp.csproj", "{8D9B8BB6-2898-4B18-AEAB-DBC1097D0317}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderToWicApp", "Direct2D1\RenderToWicApp\RenderToWicApp.csproj", "{8D9B8BB6-2898-4B18-AEAB-DBC1097D0317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRenderingApp", "TextRenderingApp\TextRenderingApp.csproj", "{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRenderingApp", "Direct2D1\TextRenderingApp\TextRenderingApp.csproj", "{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

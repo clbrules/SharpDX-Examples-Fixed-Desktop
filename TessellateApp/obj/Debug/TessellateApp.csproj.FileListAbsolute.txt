@@ -1,2 +1,0 @@
-C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDxExamples\Desktop\Direct2D1\TessellateApp\obj\Debug\TessellateApp.csprojResolveAssemblyReference.cache
-C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\TessellateApp\obj\Debug\TessellateApp.csprojResolveAssemblyReference.cache
