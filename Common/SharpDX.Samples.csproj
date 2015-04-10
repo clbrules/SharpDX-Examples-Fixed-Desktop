@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93716298-9FA4-4002-AE0B-4C9F4705CCEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharpDX.Samples</RootNamespace>
+    <AssemblyName>SharpDX.Samples</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>88385c4e</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SharpDX">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Game">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Graphics">
+      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DemoApp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DemoConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DemoTime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Direct2D1DemoApp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Direct2D1WinFormDemoApp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Direct3D11DemoApp.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\SharpDX.D3DCompiler.dll" />
+    <Content Include="bin\Debug\SharpDX.D3DCompiler.xml" />
+    <Content Include="bin\Debug\SharpDX.Direct2D1.dll" />
+    <Content Include="bin\Debug\SharpDX.Direct2D1.xml" />
+    <Content Include="bin\Debug\SharpDX.Direct3D11.dll" />
+    <Content Include="bin\Debug\SharpDX.Direct3D11.xml" />
+    <Content Include="bin\Debug\SharpDX.dll" />
+    <Content Include="bin\Debug\SharpDX.DXGI.dll" />
+    <Content Include="bin\Debug\SharpDX.DXGI.xml" />
+    <Content Include="bin\Debug\SharpDX.Samples.dll" />
+    <Content Include="bin\Debug\SharpDX.Samples.pdb" />
+    <Content Include="bin\Debug\SharpDX.xml" />
+    <Content Include="obj\Debug\SharpDX.Samples.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\SharpDX.Samples.dll" />
+    <Content Include="obj\Debug\SharpDX.Samples.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
