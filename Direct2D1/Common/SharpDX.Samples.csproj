@@ -101,6 +101,14 @@
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assemblies\SharpDX.D3DCompiler.dll" />
+    <Content Include="assemblies\SharpDX.Direct2D1.dll" />
+    <Content Include="assemblies\SharpDX.Direct3D11.dll" />
+    <Content Include="assemblies\SharpDX.dll" />
+    <Content Include="assemblies\SharpDX.DXGI.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Game.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Graphics.dll" />
     <Content Include="bin\Debug\SharpDX.D3DCompiler.dll" />
     <Content Include="bin\Debug\SharpDX.D3DCompiler.xml" />
     <Content Include="bin\Debug\SharpDX.Direct2D1.dll" />

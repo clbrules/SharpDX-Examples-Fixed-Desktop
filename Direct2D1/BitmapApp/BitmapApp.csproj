@@ -76,13 +76,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assemblies\SharpDX.D3DCompiler.dll" />
+    <Content Include="assemblies\SharpDX.Direct2D1.dll" />
+    <Content Include="assemblies\SharpDX.Direct3D11.dll" />
+    <Content Include="assemblies\SharpDX.dll" />
+    <Content Include="assemblies\SharpDX.DXGI.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Game.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Graphics.dll" />
+    <Content Include="bin\Debug\Assimp32.dll" />
+    <Content Include="bin\Debug\Assimp64.dll" />
+    <Content Include="bin\Debug\AssimpNet.dll" />
+    <Content Include="bin\Debug\AssimpNet.xml" />
+    <Content Include="bin\Debug\BitmapApp.exe" />
+    <Content Include="bin\Debug\BitmapApp.pdb" />
+    <Content Include="bin\Debug\BitmapApp.vshost.exe" />
+    <Content Include="bin\Debug\SharpDX.D3DCompiler.dll" />
+    <Content Include="bin\Debug\SharpDX.D3DCompiler.xml" />
+    <Content Include="bin\Debug\SharpDX.Direct2D1.dll" />
+    <Content Include="bin\Debug\SharpDX.Direct2D1.xml" />
+    <Content Include="bin\Debug\SharpDX.Direct3D11.dll" />
+    <Content Include="bin\Debug\SharpDX.Direct3D11.xml" />
+    <Content Include="bin\Debug\SharpDX.Direct3D9.dll" />
+    <Content Include="bin\Debug\SharpDX.Direct3D9.xml" />
+    <Content Include="bin\Debug\SharpDX.dll" />
+    <Content Include="bin\Debug\SharpDX.DXGI.dll" />
+    <Content Include="bin\Debug\SharpDX.DXGI.xml" />
+    <Content Include="bin\Debug\sharpdx.png" />
+    <Content Include="bin\Debug\SharpDX.Samples.dll" />
+    <Content Include="bin\Debug\SharpDX.Samples.pdb" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Compiler.dll" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Compiler.xml" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.dll" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Game.dll" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Game.xml" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Graphics.dll" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.Graphics.xml" />
+    <Content Include="bin\Debug\SharpDX.Toolkit.xml" />
+    <Content Include="bin\Debug\SharpDX.xml" />
+    <Content Include="obj\Debug\BitmapApp.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\BitmapApp.exe" />
+    <Content Include="obj\Debug\BitmapApp.pdb" />
     <Content Include="sharpdx.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\BitmapApp.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

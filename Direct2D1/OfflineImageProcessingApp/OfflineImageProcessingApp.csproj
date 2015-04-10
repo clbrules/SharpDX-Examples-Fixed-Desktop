@@ -78,6 +78,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assemblies\SharpDX.D3DCompiler.dll" />
+    <Content Include="assemblies\SharpDX.Direct2D1.dll" />
+    <Content Include="assemblies\SharpDX.Direct3D11.dll" />
+    <Content Include="assemblies\SharpDX.dll" />
+    <Content Include="assemblies\SharpDX.DXGI.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Game.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Graphics.dll" />
     <Content Include="Input.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
