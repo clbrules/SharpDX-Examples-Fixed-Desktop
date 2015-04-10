@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderToWicApp", "Direct2D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRenderingApp", "Direct2D1\TextRenderingApp\TextRenderingApp.csproj", "{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TessellateApp", "Direct2D1\TessellateApp\TessellateApp.csproj", "{BF4F383C-EEBD-464E-A588-3C066EBBF0B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCE8E081-BD05-4A38-8DB9-7B0BC70AD879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4F383C-EEBD-464E-A588-3C066EBBF0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4F383C-EEBD-464E-A588-3C066EBBF0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4F383C-EEBD-464E-A588-3C066EBBF0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4F383C-EEBD-464E-A588-3C066EBBF0B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

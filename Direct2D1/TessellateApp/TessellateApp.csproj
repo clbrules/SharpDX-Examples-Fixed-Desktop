@@ -35,28 +35,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpDX">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.D3DCompiler">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.D3DCompiler.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct2D1">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct2D1.dll</HintPath>
+      <HintPath>..\..\..\..\Bin\Desktop\SharpDX.Direct2D1.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct3D11">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Direct3D11.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Direct3D11.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.DXGI">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.DXGI.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.DXGI.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Toolkit">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Toolkit.Game">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Game.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.Game.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Toolkit.Graphics">
-      <HintPath>..\assemblies\SharpDX.2.6.3\Bin\DirectX11_2-net40\SharpDX.Toolkit.Graphics.dll</HintPath>
+      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -72,18 +69,37 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="obj\Debug\TessellateApp.csprojResolveAssemblyReference.cache" />
+    <ProjectReference Include="..\Common\SharpDX.Samples.csproj">
+      <Project>{93716298-9FA4-4002-AE0B-4C9F4705CCEA}</Project>
+      <Name>SharpDX.Samples</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="obj\Debug\TessellateApp.csproj.FileListAbsolute.txt" />
+    <None Include="bin\Debug\TessellateApp.vshost.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assemblies\SharpDX.D3DCompiler.dll" />
+    <Content Include="assemblies\SharpDX.D3DCompiler.xml" />
+    <Content Include="assemblies\SharpDX.Direct2D1.dll" />
+    <Content Include="assemblies\SharpDX.Direct2D1.xml" />
+    <Content Include="assemblies\SharpDX.Direct3D11.dll" />
+    <Content Include="assemblies\SharpDX.Direct3D11.xml" />
+    <Content Include="assemblies\SharpDX.dll" />
+    <Content Include="assemblies\SharpDX.DXGI.dll" />
+    <Content Include="assemblies\SharpDX.DXGI.xml" />
+    <Content Include="assemblies\SharpDX.Toolkit.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Game.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Game.xml" />
+    <Content Include="assemblies\SharpDX.Toolkit.Graphics.dll" />
+    <Content Include="assemblies\SharpDX.Toolkit.Graphics.xml" />
+    <Content Include="assemblies\SharpDX.Toolkit.xml" />
+    <Content Include="assemblies\SharpDX.xml" />
+    <Content Include="bin\Debug\TessellateApp.vshost.exe" />
     <Content Include="screenshot.png" />
     <Content Include="screenshot_small.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bin\Debug\" />
     <Folder Include="bin\Release\" />
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
