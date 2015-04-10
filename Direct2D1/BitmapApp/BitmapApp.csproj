@@ -56,6 +56,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>assemblies\SharpDX.DXGI.dll</HintPath>
     </Reference>
+    <Reference Include="SharpDX.Samples, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Samples.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX.Toolkit, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>assemblies\SharpDX.Toolkit.dll</HintPath>
@@ -88,6 +92,7 @@
     <Content Include="assemblies\SharpDX.Direct3D11.dll" />
     <Content Include="assemblies\SharpDX.dll" />
     <Content Include="assemblies\SharpDX.DXGI.dll" />
+    <Content Include="assemblies\SharpDX.Samples.dll" />
     <Content Include="assemblies\SharpDX.Toolkit.dll" />
     <Content Include="assemblies\SharpDX.Toolkit.Game.dll" />
     <Content Include="assemblies\SharpDX.Toolkit.Graphics.dll" />
