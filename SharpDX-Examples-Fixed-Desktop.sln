@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpDX.Samples", "Common\SharpDX.Samples.csproj", "{93716298-9FA4-4002-AE0B-4C9F4705CCEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitmapApp", "BitmapApp\BitmapApp.csproj", "{AB183A0E-36DF-4C01-B46F-413F4070C43D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{93716298-9FA4-4002-AE0B-4C9F4705CCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93716298-9FA4-4002-AE0B-4C9F4705CCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93716298-9FA4-4002-AE0B-4C9F4705CCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB183A0E-36DF-4C01-B46F-413F4070C43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB183A0E-36DF-4C01-B46F-413F4070C43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB183A0E-36DF-4C01-B46F-413F4070C43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB183A0E-36DF-4C01-B46F-413F4070C43D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
