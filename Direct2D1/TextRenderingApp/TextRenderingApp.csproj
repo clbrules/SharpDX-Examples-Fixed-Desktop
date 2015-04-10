@@ -36,26 +36,37 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SharpDX">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.dll</HintPath>
+    <Reference Include="SharpDX, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.Direct2D1">
-      <HintPath>..\..\..\..\Bin\Desktop\SharpDX.Direct2D1.dll</HintPath>
+    <Reference Include="SharpDX.D3DCompiler, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.D3DCompiler.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.Direct3D11">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Direct3D11.dll</HintPath>
+    <Reference Include="SharpDX.Direct2D1, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Direct2D1.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.DXGI">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.DXGI.dll</HintPath>
+    <Reference Include="SharpDX.Direct3D11, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Direct3D11.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.Toolkit">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.dll</HintPath>
+    <Reference Include="SharpDX.DXGI, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.DXGI.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.Toolkit.Game">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.Game.dll</HintPath>
+    <Reference Include="SharpDX.Toolkit, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Toolkit.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX.Toolkit.Graphics">
-      <HintPath>$(SharpDXPackageBinDir)\SharpDX.Toolkit.Graphics.dll</HintPath>
+    <Reference Include="SharpDX.Toolkit.Game, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Toolkit.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Toolkit.Graphics, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assemblies\SharpDX.Toolkit.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
@@ -69,12 +80,6 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\SharpDX.Samples.csproj">
-      <Project>{93716298-9FA4-4002-AE0B-4C9F4705CCEA}</Project>
-      <Name>SharpDX.Samples</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\TextRenderingApp.vshost.exe.manifest" />
