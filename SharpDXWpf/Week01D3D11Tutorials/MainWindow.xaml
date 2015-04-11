@@ -1,0 +1,106 @@
+﻿<Window x:Class="Week01D3D11Tutorials.MainWindow"
+		x:Name="root"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:dxc="clr-namespace:SharpDX.WPF;assembly=SharpDX.WPF"
+		xmlns:local="clr-namespace:Week01D3D11Tutorials"
+        Title="DirectX SDK: Direct3D 11 Tutorials" 
+		Height="500" Width="600">
+    <Grid>
+		<TabControl >
+			
+			<TabItem Header="Simple Triangle">
+				<Grid>
+					<dxc:DXElement>
+						<dxc:DXElement.Renderer>
+							<local:T2_SimpleTriangle/>
+						</dxc:DXElement.Renderer>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ff729719(v=vs.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Tutorial 2 (&amp; 3): Rendering a triangle
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="3D Spaces">
+				<Grid>
+					<dxc:DXElement>
+						<dxc:DXElement.Renderer>
+							<local:T4_Spaces3D/>
+						</dxc:DXElement.Renderer>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ff729721(v=VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Tutorial 4: 3D Spaces
+						</Hyperlink>
+					</TextBlock>
+					<TextBlock VerticalAlignment="Top" HorizontalAlignment="Left">
+						Respond to Mouse, Nav keys, WASDQE keys &amp; Home
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Transformation">
+				<Grid>
+					<dxc:DXElement>
+						<dxc:DXElement.Renderer>
+							<local:T5_Transformation/>
+						</dxc:DXElement.Renderer>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ff729722(v=VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Tutorial 5: Transformation
+						</Hyperlink>
+					</TextBlock>
+					<TextBlock VerticalAlignment="Top" HorizontalAlignment="Left">
+						Respond to Mouse, Nav keys, WASDQE keys &amp; Home
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Lighting">
+				<Grid>
+					<dxc:DXElement>
+						<dxc:DXElement.Renderer>
+							<local:T6_Lighting/>
+						</dxc:DXElement.Renderer>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ff729723(v=VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Tutorial 6: Lighting
+						</Hyperlink>
+					</TextBlock>
+					<TextBlock VerticalAlignment="Top" HorizontalAlignment="Left">
+						Respond to Mouse, Nav keys, WASDQE keys &amp; Home
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Texture Mapping">
+				<Grid>
+					<dxc:DXElement>
+						<dxc:DXElement.Renderer>
+							<local:T7_Texture/>
+						</dxc:DXElement.Renderer>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ff729724(v=VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Tutorial 7: Texture Mapping and Constant Buffers
+						</Hyperlink>
+					</TextBlock>
+					<TextBlock VerticalAlignment="Top" HorizontalAlignment="Left">
+						Respond to Mouse, Nav keys, WASDQE keys &amp; Home
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+		</TabControl>
+    </Grid>
+</Window>

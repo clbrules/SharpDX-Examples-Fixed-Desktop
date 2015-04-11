@@ -1,0 +1,123 @@
+﻿<Window x:Class="Week02Samples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:dxc="clr-namespace:SharpDX.WPF;assembly=SharpDX.WPF"
+		xmlns:local="clr-namespace:Week02Samples"
+        Title="Random Samples" 
+		Height="550" Width="650">
+	<Grid>
+		<TabControl Background="{x:Static SystemColors.ControlBrush}">
+
+			<TabItem Header="Simple Bezier">
+				<Grid xmlns:sb="clr-namespace:Week02Samples.SimpleBezier">
+					<local:SafeViewer MinimumHardware="Level_11_0">
+						<local:SafeViewer.SceneTemplate>
+							<DataTemplate>
+								<sb:Bezier />
+							</DataTemplate>
+						</local:SafeViewer.SceneTemplate>
+					</local:SafeViewer>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ee416574(VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							MSDN: SimpleBezier11 Sample
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Content Streaming">
+				<Grid xmlns:cs="clr-namespace:Week02Samples.ContentStream">
+					<cs:View/>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ee416397(VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							MSDN: ContentStreaming Sample
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<!--
+			<TabItem Header="Skinned Mesh">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ee418800(VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							MSDN: SkinnedMesh Sample
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Multi Threaded rendering">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/ee416570(VS.85).aspx" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							MSDN: MultithreadedRendering11 Sample
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Rendering Texture">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://learningwebgl.com/blog/?p=1786" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Learning WebGL: Lesson 16 - rendering to textures
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="3D Water Effect">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://www.xbdev.net/directx3dx/specialX/Water3D/index.php" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							XBDEV.NET: 3D Water Effect
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Fur Effect" IsSelected="True">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="http://www.xbdev.net/directx3dx/specialX/Fur/index.php" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							XBDEV.NET: Fur Effects - Teddys, Cats, Hair ....
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+
+			<TabItem Header="Model Viewer">
+				<Grid>
+					<dxc:DXElement>
+					</dxc:DXElement>
+					<TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left">
+						<Hyperlink NavigateUri="" 
+								   RequestNavigate="Hyperlink_RequestNavigate">
+							Custom Meshellator viewer
+						</Hyperlink>
+					</TextBlock>
+				</Grid>
+			</TabItem>
+		-->
+
+		</TabControl>
+    </Grid>
+</Window>
