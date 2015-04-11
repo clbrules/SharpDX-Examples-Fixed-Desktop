@@ -2,8 +2,12 @@
 
 ### What is this repository for? ###
 
-* This repo is an updated version that has internally pointed sharpdx references of the sharpdx sample project found at:
+* This repo is an updated version that has internally pointed sharpdx references (that are included with the project so they are so friggin hard to find) of the sharpdx sample project found at:
 https://github.com/sharpdx/SharpDX-Samples
+
+* Hmmm, so i'm also going to try and fix the samples (and include with the project) for the SharpWPF project found at:
+https://sharpdxwpf.codeplex.com/
+(This may take a while)
 
 ### How do I get set up? ###
 
