@@ -12,7 +12,7 @@ https://sharpdxwpf.codeplex.com/
 ### How do I get set up? ###
 
 If you get a warning on launching the project go to Tools -> Options -> Debugger -> General -> Uncheck "Warn if no user code on launch"
-Also, if it doesn't just run, let me know and I'll try and help.
+\r\nAlso, if it doesn't just run, let me know and I'll try and help.
 
 ### Who do I talk to? ###
 
