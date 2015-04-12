@@ -1410,7 +1410,7 @@
             </summary>
             <value>The graphics profile.</value>
             <remarks>
-            By default, the PreferredGraphicsProfile is set to { <see cref="!:FeatureLevel.Level_11_1"/>, 
+            By default, the PreferredGraphicsProfile is set to { <see cref="F:SharpDX.Direct3D.FeatureLevel.Level_11_1"/>, 
             <see cref="F:SharpDX.Direct3D.FeatureLevel.Level_11_0"/>,
             <see cref="F:SharpDX.Direct3D.FeatureLevel.Level_10_1"/>,
             <see cref="F:SharpDX.Direct3D.FeatureLevel.Level_10_0"/>,

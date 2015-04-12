@@ -42,8 +42,6 @@ C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Co
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Common\obj\Debug\SharpDX.Samples.csprojResolveAssemblyReference.cache
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\bin\Debug\SharpDX.Samples.dll
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\bin\Debug\SharpDX.Samples.pdb
-C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\bin\Debug\SharpDX.Direct3D9.dll
-C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\bin\Debug\SharpDX.Direct3D9.xml
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\obj\Debug\SharpDX.Samples.csprojResolveAssemblyReference.cache
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\obj\Debug\SharpDX.Samples.dll
 C:\Users\CBell\Documents\Personal\Projects\WPF\SharpDX-Examples-Fixed-Desktop\Direct2D1\Common\obj\Debug\SharpDX.Samples.pdb
